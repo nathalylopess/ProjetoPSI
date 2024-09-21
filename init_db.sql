@@ -5,6 +5,6 @@ USE hotel_campus_db;
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(80) NOT NULL,
-    email VARCHAR(120) NOT NULL
-    senha TEXT NOT NULL
+    email VARCHAR(120) NOT NULL,
+    senha VARCHAR(255) NOT NULL
 );
